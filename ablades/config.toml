@@ -40,6 +40,7 @@ disqusShortname = ""
     title = "Forty"
     subtitle = "By HTML5 Up"
     menu = "Menu"
+
     # Optional logo as brand stored in img/
     # logo = "logo.png"
 
@@ -90,33 +91,33 @@ disqusShortname = ""
     # Display your showcases here.
     
     [[params.tiles.showcase]]
-      title = "Aliquam"
-      subtitle = "Ipsum Dolor Sit Amet"
-      image = "pic01.jpg"
+      title = "About Me"
+      subtitle = "More info about me!"
+      image = "me.jpeg"
       url = "blogs/aliquam"
 
     [[params.tiles.showcase]]
-      title = "Tempus"
-      subtitle = "Feugiat Amet Tempus"
+      title = "Tech Blogs"
+      subtitle = "Tech blogs and My Industry insights"
       image = "pic02.jpg"
       url = "blogs/tempus"
 
     [[params.tiles.showcase]]
-      title = "Magna"
+      title = "Software Projects"
       subtitle = "Lorem Etiam Nullam"
       image = "pic03.jpg"
       url = "blogs/magna"
 
     [[params.tiles.showcase]]
-      title = "Ipsum"
-      subtitle = "Nisl Sed Aliquam"
-      image = "pic04.jpg"
+      title = "DIY Projects"
+      subtitle = "Projects I do around my house"
+      image = "jasmin-schreiber-607924-unsplash.jpg"
       url = "blogs/ipsum"
 
     [[params.tiles.showcase]]
-      title = "Consequat"
-      subtitle = "Ipsum Dolor Sit Amet"
-      image = "pic05.jpg"
+      title = "Ventures and Ambitions"
+      subtitle = "All my forthcoming projects and Activities"
+      image = "sweet-ice-cream-photography-97452-unsplash.jpg"
       url = "blogs/ipsum"
 
     #[[params.tiles.showcase]]
@@ -148,7 +149,7 @@ disqusShortname = ""
 
   # Contact section
   [params.contact]
-    enable = true
+    enable = "false"
     buttonSend = "Send message"
     buttonClear = "Clear"
 
@@ -170,11 +171,11 @@ disqusShortname = ""
     # by copying the corresponding map with frontmatter code.
     [[params.contact.email]]
     title = "Email"
-    email = "example@domain.com"
+    email = "ablades@protonmail.com"
 
-    [[params.contact.phone]]
-    title = "Phone"
-    phone = "(000) 000-0000 x1234"
+    #[[params.contact.phone]]
+    #title = "Phone"
+    #phone = ""
 
     [[params.contact.address]]
     title = "Address"
