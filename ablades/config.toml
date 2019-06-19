@@ -20,10 +20,10 @@ disqusShortname = ""
 
   # Provide your metadata here.
   name = "Audaris Blades"
-  description = "Your description"
+  description = "My personal portfolio/blog site."
 
   # Link custom assets relative to /static
-  custom_css = []
+  custom_css = ["/css/navbar.css",]
   custom_js  = []
   favicon    = "favicon.ico"
 
@@ -38,51 +38,38 @@ disqusShortname = ""
   # Navigation Section
   [params.navigation]
     title = "Forty"
-    subtitle = "By HTML5 Up"
+    #ubtitle = "By HTML5 Up"
     menu = "Menu"
+
+  [[params.navigation.navbar]]
+    name = "Home"
+    url = "#"
+
+  [[params.navigation.navbar]]
+    name = "Blogs"
+    url = "blogs"
+
+  [[params.navigation.navbar]]
+    name = "Projects"
+    url = "projects"
+
+  [[params.navigation.navbar]]
+    name = "Resume"
+    url = "resume"
+
 
     # Optional logo as brand stored in img/
     # logo = "logo.png"
 
-    [[params.navigation.links]]
-      name = "Home"
-      url = "#"
-
-    [[params.navigation.links]]
-      name = "Blogs"
-      url = "blogs"
-
-    [[params.navigation.links]]
-      name = "Generic Blog"
-      url = "blogs/ipsum"
-
-    [[params.navigation.links]]
-      name = "Elements"
-      url = "elements.html"
-
-    [[params.navigation.links]]
-      name = "Insights"
-      url = "insights.html"
-
-
-    # Button Style 1
-    [[params.navigation.button1]]
-      name = "Get Started"
-      url = "blogs"
-
-    # Button Style 2
-    [[params.navigation.button2]]
-      name = "Log In"
-      url = "#"
 
 
   # Banner section
   [params.banner]
     # To change the background image on the homepage banner, replace 'banner.jpg' in
     # the 'static/img' folder.
-    title = "Test"
-    subtitle = "A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP\nAND RELEASED UNDER THE CREATIVE COMMONS."
-    buttonText = "Get Started"
+    title = "Welcome!"
+    subtitle = "This is my personal site I use to showcase and keep track of the things I do. Thanks for stopping by!"
+    button = "False"
 
 
   # Tiles Section
@@ -108,11 +95,11 @@ disqusShortname = ""
       image = "pic03.jpg"
       url = "blogs/magna"
 
-    [[params.tiles.showcase]]
-      title = "DIY Projects"
-      subtitle = "Projects I do around my house"
-      image = "jasmin-schreiber-607924-unsplash.jpg"
-      url = "blogs/ipsum"
+    #[[params.tiles.showcase]]
+    #  title = "DIY Projects"
+    #  subtitle = "Projects I do around my house"
+    #  image = "jasmin-schreiber-607924-unsplash.jpg"
+    #  url = "blogs/ipsum"
 
     [[params.tiles.showcase]]
       title = "Ventures and Ambitions"

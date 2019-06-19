@@ -1,0 +1,10 @@
+{{ "<!-- Header -->" | safeHTML }}
+    <header id="header" class="alt">
+        <a href="{{ .Site.BaseURL }}" class="logo">{{ if .Site.Params.Navigation.logo }}<img src="{{ .Site.Params.baseURL }}/img/{{ .Site.Params.Navigation.logo }}" alt="" />{{ else }}<strong>{{ .Site.Params.Navigation.title }}</strong> <span>{{ .Site.Params.Navigation.subtitle }}</span>{{ end }}</a>
+        <nav>
+    <!-- Creates Navigation links from frontmatter using name and url fields-->
+            {{range .Site.Params.Navigation.navbar}}
+                <a href="{{ .url | absURL}}"> {{ .name }}</a></li>
+            {{ end }}
+         </nav>
+    </header>
