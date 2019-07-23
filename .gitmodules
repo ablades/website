@@ -1,3 +1,7 @@
 [submodule "ablades/themes/forty"]
 	path = ablades/themes/forty
 	url = https://github.com/MarcusVirg/forty
+[submodule "ablades/public"]
+	path = ablades/public
+	url = git@github.com:ablades/ablades.github.io.git
+	branch = master
