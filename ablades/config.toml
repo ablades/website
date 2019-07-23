@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "ablades.github.io/"
+baseURL = ""
 languageCode = "en-us"
 title = "Forty"
 theme = "forty"
