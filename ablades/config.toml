@@ -1,5 +1,5 @@
 # Site settings
-baseURL = ""
+baseURL = "https://ablades.github.io/"
 languageCode = "en-us"
 title = "Forty"
 theme = "forty"
@@ -47,15 +47,15 @@ disqusShortname = ""
 
   [[params.navigation.navbar]]
     name = "Blogs"
-    url = "blogs"
+    url = "#/blogs"
 
   [[params.navigation.navbar]]
     name = "Projects"
-    url = "blogs/projects"
+    url = "#/blogs/projects"
 
   [[params.navigation.navbar]]
     name = "Resume"
-    url = "resume"
+    url = "#/resume"
 
 
     # Optional logo as brand stored in img/
